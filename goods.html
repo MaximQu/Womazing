@@ -1,0 +1,243 @@
+<!DOCTYPE html>
+<html lang="ru">
+
+<head>
+    <meta charset="UTF-8">
+    <link rel="stylesheet" href="assets/css/style.css">
+
+    <!-- Useful meta tags -->
+    <meta http-equiv="x-ua-compatible" content="ie=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <meta name="robots" content="index, follow">
+    <meta name="google" content="notranslate">
+    <meta name="format-detection" content="telephone=no">
+    <meta name="description" content="">
+
+    <meta  name="Womazing" content="Одежда, мода, новые коллекции, бренды , мировые бренды, акции, шопинг">
+    <meta property="og:title" content="Womazing">
+    <meta property="og:description" content="Посети незабываемую страну красок и передовых технологий, пропитаную духом современности и незабываемых емоций">
+    <meta property="og:type" content="article">
+    <meta property="og:image" content="https://sitename.ru/img/preview-photo-min.png">
+    <meta property="og:site_name" content="Womazing">
+
+    <link href="assets/scss/vendor/null.scss">
+
+    <title>Свитшот</title>
+</head>
+
+<body>
+    <!-- header -->
+    <header class="header header-sticky">
+        <div class="container">
+            <div class="header__inner">
+                <a href="index.html" class="logo">
+                    <img src="assets/images/svg/logo.svg" alt="Womazing" class="logo__link">
+                </a>
+                <nav class="menu">
+                    <ul class="menu__list">
+                        <li class="menu__item">
+                            <a href="index.html" class="menu__link">Главная</a>
+                        </li>
+                        <li class="menu__item">
+                            <a href="shop.html" class="menu__link">Магазин</a>
+                        </li>
+                        <li class="menu__item">
+                            <a href="about.html" class="menu__link">О бренде</a>
+                        </li>
+                        <li class="menu__item">
+                            <a href="contact.html" class="menu__link">Контакты</a>
+                        </li>
+                    </ul>
+                </nav>
+                <button type="submit" class="header__tel" id="open__btn">
+                    <span class="header__tel-img"></span>
+                    <span class="header__tel-link">+38(093) 333-22-11</span>
+                </button>
+                <a href="basket.html" class="header-link">
+                    <img src="assets/images/svg/basket.svg" alt="basket" class="header-link__img">
+                    <span class="header-link__num">1</span>
+                </a>
+                <div class="burger" id="menu-open">
+                    <div class="burger-view"></span>
+                    <nav class="burger-menu">
+                        <ul class="burger-menu__list">
+                            <li class="burger-menu__item">
+                                <a href="index.html" class="burger-menu__link burger-menu__link_active">Главная</a>
+                            </li>
+                            <li class="burger-menu__item">
+                                <a href="shop.html" class="burger-menu__link">Магазин</a>
+                            </li>
+                            <li class="burger-menu__item">
+                                <a href="about.html" class="burger-menu__link">О бренде</a>
+                            </li>
+                            <li class="burger-menu__item">
+                                <a href="contact.html" class="burger-menu__link">Контакты</a>
+                            </li>
+                        </ul>
+                        <button type="button" class="header__tel" id="open__btn">
+                            <span class="header__tel-link header__tel-link_burger">+38(093) 3...</span>
+                        </button>
+                    </nav>
+                </div>
+            </div>
+        </div>
+    </header>
+    <!-- modal -->
+    <div class="modal">
+        <div id="overlay"></div>
+        <div id="modal__window">
+            <span class="close__btn" id="close__btn"></span>
+            <h3 class="modal__title">Заказать обратный звонок</h3>
+            <form action="#" method="GET" class="contact-form" translate="yes" id="modal-form">
+                <input class="contact-form__input" name="name" type="text" required autocomplete="name"
+                    placeholder="Имя">
+                <input class="contact-form__input" name="email" type="email" required autocomplete="email"
+                    placeholder="E-mail">
+                <input class="contact-form__input" name="phoneNumber" type="tel" required autocomplete="tel"
+                    placeholder="Телефон">
+                <button class="contact-form__btn btn" type="submit" id="close__btn">Отправить</button>
+            </form>
+        </div>
+    </div><!-- ./modal -->
+    <div class="modal__mini" id="modal__mini">
+        <div id="overlay1"></div>
+        <div id="modal-window1">
+            <h3 class="wrapper-modal-tittle">Отлично! Мы скоро вам перезвоним.</h3>
+            <button type="button" class="modal__mini-btn btn" id="mini-close__btn">Закрыть</button>
+        </div>
+    </div>
+    <section class="goods">
+        <div class="container">
+            <h1 class="goods__title">Свитшот Sweet Shot</h1>
+            <span class="crumbs">Главная - Свишоты -<span> Свитшот Sweet Shot</span></span>
+            <div class="goods__inner">
+                <img src="assets/images/collection3.png" alt="" class="goods__img">
+                <div class="goods__info">
+                    <span class="goods__price">$129</span>
+                    <p class="goods__text">Выберите размер</p>
+                    <ul class="goods__list size__list">
+                        <li class="goods__item size__item size__item_active">S</li>
+                        <li class="goods__item size__item">M</li>
+                        <li class="goods__item size__item">L</li>
+                        <li class="goods__item size__item">XS</li>
+                        <li class="goods__item size__item">XM</li>
+                    </ul>
+                    <p class="goods__text">Выберите цвет</p>
+                    <ul class="goods__list color__list">
+                        <li class="goods__item color__item color__item_active"></li>
+                        <li class="goods__item color__item"></li>
+                        <li class="goods__item color__item"></li>
+                        <li class="goods__item color__item"></li>
+                    </ul>
+                    <form action="#" method="GET" class="goods__form" id="goods-form">
+                        <p><input class="goods__input" type="number" maxlength="1" max="10" name="amount" value="1" required></p>
+                        <button type="submit" class="goods__btn btn-full">Добавить в корзину</button>
+                    </form>
+                </div>
+            </div>
+            <h2 class="goods__subtitle">Связанные товары</h2>
+            <ul class="collection__list">
+                <li class="collection__item  goods-item">
+                    <a href="goods.html" class="collection__link">
+                        <div class="collection__wrap">
+                            <img src="assets/images/collection1.png" alt="collection1" class="collection__img">
+                        </div>
+                        <div class="collection__text">
+                            <span class="collection__name">Футболка USA</span>
+                            <span class="collection__price">$229</span>
+                        </div>
+                    </a>
+                </li>
+                <li class="collection__item  goods-item">
+                    <a href="goods.html" class="collection__link">
+                        <div class="collection__wrap">
+                            <img src="assets/images/collection1.png" alt="collection1" class="collection__img">
+                        </div>
+                        <div class="collection__text">
+                            <span class="collection__name">Футболка USA</span>
+                            <span class="collection__price">$229</span>
+                        </div>
+                    </a>
+                </li>
+                <li class="collection__item goods-item">
+                    <a href="goods.html" class="collection__link">
+                        <div class="collection__wrap">
+                            <img src="assets/images/collection2.png" alt="collection2" class="collection__img">
+                        </div>
+                        <div class="collection__text">
+                            <span class="collection__name">Купальник Glow</span>
+                            <span class="collection__price">$129</span>
+                        </div>
+                    </a>
+                </li>
+            </ul>
+        </div>
+    </section>
+    <!-- footer -->
+    <footer class="footer">
+        <div class="container">
+            <div class="footer__inner">
+                <div class="footer__docs">
+                    <a href="index.html" class="logo">
+                        <img src="assets/images/svg/logo.svg" alt="Womazing" class="logo__link">
+                    </a>
+                    <span class="footer__docs-item ">© Все права защищены</span>
+                    <!-- noindex -->
+                    <a href="https://legalitgroup.com" target="_blank" rel="noopener noreferrer nofollow"
+                        class="footer__docs-item ">Политика конфиденциальности</a>
+                    <!-- ./noindex -->
+                    <!-- noindex -->
+                    <a href="https://www.investopedia.com" target="_blank" rel="noopener noreferrer nofollow"
+                        class="footer__docs-item ">Публичная оферта</a>
+                    <!-- ./noindex -->
+                </div>
+                <nav class="menu">
+                    <ul class="menu__list">
+                        <li class="menu__item">
+                            <a href="index.html" class="menu__link menu__link_active">Главная</a>
+                        </li>
+                        <li class="menu__item">
+                            <a href="shop.html" class="menu__link">  Магазин</a>
+                        </li>
+                        <li class="menu__item">
+                            <a href="about.html" class="menu__link">О бренде</a>
+                        </li>
+                        <li class="menu__item">
+                            <a href="contact.html" class="menu__link">Контакты</a>
+                        </li>
+                    </ul>
+                </nav>
+                <div class="footer__contact">
+                    <button class="footer__tel" id="open__btn">+7 (495) 823-54-12</button>
+                    <a href="mailto:hello@womazing.com" class="footer__mail">hello@womazing.com</a>
+                    <div class="footer-social">
+                        <!-- noindex -->
+                        <a href="https://ru.wikipedia.org/wiki/Instagram" rel="noreferrer noopener nofollow"
+                            target="_blank">
+                            <img src="assets/images/svg/inst.svg" class="footer-social__icon" alt="instagram">
+                        </a>
+                        <!-- ./noindex -->
+                        <!-- noindex -->
+                        <a href="https://ru.wikipedia.org/wiki/Facebook" rel="noreferrer noopener nofollow" target="_blank">
+                            <img src="assets/images/svg/fb.svg" class="footer-social__icon" alt="facebook">
+                        </a>
+                        <!-- ./noindex -->
+                        <!-- noindex -->
+                        <a href="https://ru.wikipedia.org/wiki/%D0%A2%D0%B2%D0%B8%D1%82%D1%82%D0%B5%D1%80"
+                            rel="noreferrer noopener nofollow" target="_blank">
+                            <img src="assets/images/svg/twit.svg" class="footer-social__icon" alt="twitter">
+                        </a>
+                        <!-- ./noindex -->
+                    </div>
+                    <span class="footer-payment"></span>
+                </div>
+            </div>
+        </div>
+    </footer>
+    <!-- ./footer -->
+    <script src="assets/js/jquery-3.6.0.min.js"></script>
+    <script src="assets/js/jquery.validate.min.js"></script>
+    <script src="assets/js/app.js"></script>
+</body>
+
+</html>
